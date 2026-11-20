@@ -1,7 +1,4 @@
-
-# ==========================================
-# SUPERKART STREAMLIT FRONTEND
-# ==========================================
+# Superkart Streamlit Frontend
 
 import os
 import pandas as pd
@@ -28,9 +25,7 @@ st.write(
     "the trained Random Forest model."
 )
 
-# ==========================================
-# SINGLE PREDICTION
-# ==========================================
+# Single prediction
 
 st.header("Single Sales Prediction")
 
@@ -154,9 +149,7 @@ if submitted:
         st.error(f"Invalid prediction response: {error}")
 
 
-# ==========================================
-# BATCH PREDICTION
-# ==========================================
+# Batch prediction
 
 st.divider()
 
