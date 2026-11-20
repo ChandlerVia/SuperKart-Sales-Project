@@ -1,7 +1,4 @@
-
-# ==========================================
-# SUPERKART FLASK BACKEND
-# ==========================================
+# Superkart Flask Backend
 
 import joblib
 import pandas as pd
